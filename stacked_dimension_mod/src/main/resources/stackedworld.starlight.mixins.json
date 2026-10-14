@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "stackedworld.mixin",
+	"plugin": "stackedworld.mixin.StarlightMixinPlugin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"StarLightEngineAccessor",
+		"StarlightSkyLightMixin",
+		"StarlightSpreadMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

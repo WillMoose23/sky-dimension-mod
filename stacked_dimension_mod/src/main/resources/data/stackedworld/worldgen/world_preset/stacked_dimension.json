@@ -1,0 +1,38 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "stackedworld:overworld",
+      "generator": {
+        "type": "stackedworld:stacked_noise",
+        "sky_islands": {
+          "land_frequency": 0.35,
+          "land_size": 0.55,
+          "ocean_frequency": 0.9,
+          "ocean_size": 1.0
+        },
+        "biome_source": {
+          "type": "stackedworld:stacked",
+          "overworld": {
+            "type": "minecraft:multi_noise",
+            "preset": "minecraft:overworld"
+          },
+          "nether": {
+            "type": "minecraft:multi_noise",
+            "preset": "minecraft:nether"
+          }
+        },
+        "settings": "stackedworld:overworld"
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        },
+        "settings": "minecraft:end"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "stackedworld",
+	"version": "${version}",
+	"name": "Stacked Dimension",
+	"description": "Adds a Stacked Dimension world type: nether caves under the overworld, sky islands above it, and nether portals that stay in that column. The End is unchanged.",
+	"authors": ["Stacked Dimension"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["stackedworld.StackedDimensionMod"],
+		"client": ["stackedworld.client.StackedDimensionClient"]
+	},
+	"mixins": [
+		"stackedworld.mixins.json",
+		"stackedworld.starlight.mixins.json",
+		{
+			"config": "stackedworld.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

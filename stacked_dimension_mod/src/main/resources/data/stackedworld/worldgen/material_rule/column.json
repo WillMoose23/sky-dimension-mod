@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:sequence",
+	"sequence": [
+		"minecraft:bedrock_floor",
+		"stackedworld:nether_band",
+		"minecraft:overworld"
+	]
+}

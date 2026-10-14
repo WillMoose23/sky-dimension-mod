@@ -1,0 +1,34 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 35222648,
+    "separation": 15,
+    "spacing": 40
+  },
+  "structures": [
+    {
+      "structure": "stackedworld:ruined_portal",
+      "weight": 1
+    },
+    {
+      "structure": "stackedworld:ruined_portal_desert",
+      "weight": 1
+    },
+    {
+      "structure": "stackedworld:ruined_portal_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "stackedworld:ruined_portal_swamp",
+      "weight": 1
+    },
+    {
+      "structure": "stackedworld:ruined_portal_mountain",
+      "weight": 1
+    },
+    {
+      "structure": "stackedworld:ruined_portal_ocean",
+      "weight": 1
+    }
+  ]
+}

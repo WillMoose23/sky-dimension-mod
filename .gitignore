@@ -1,0 +1,15 @@
+.DS_Store
+.cursor/
+
+The-Aether-1.21.1-1.5.10-neoforge/
+backup/
+java_src/
+
+stacked_dimension_mod/.gradle/
+stacked_dimension_mod/build/
+stacked_dimension_mod/run/
+stacked_dimension_mod/archive/
+stacked_dimension_mod/.classpath
+stacked_dimension_mod/.project
+stacked_dimension_mod/.settings/
+stacked_dimension_mod/bin/

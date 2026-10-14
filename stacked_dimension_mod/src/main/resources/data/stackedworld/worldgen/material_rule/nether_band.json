@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:condition",
+	"if_true": {
+		"type": "minecraft:not",
+		"invert": {
+			"type": "minecraft:y_above",
+			"add_stone_depth": false,
+			"anchor": {
+				"absolute": -64
+			},
+			"surface_depth_multiplier": 0
+		}
+	},
+	"then_run": {
+		"type": "minecraft:sequence",
+		"sequence": [
+			{
+				"type": "minecraft:condition",
+				"if_true": {
+					"type": "minecraft:not",
+					"invert": {
+						"type": "minecraft:y_above",
+						"add_stone_depth": false,
+						"anchor": {
+							"absolute": -150
+						},
+						"surface_depth_multiplier": 0
+					}
+				},
+				"then_run": {
+					"type": "minecraft:condition",
+					"if_true": {
+						"type": "minecraft:hole"
+					},
+					"then_run": {
+						"type": "minecraft:block",
+						"result_state": "minecraft:lava"
+					}
+				}
+			},
+			{
+				"type": "minecraft:block",
+				"result_state": "minecraft:netherrack"
+			}
+		]
+	}
+}

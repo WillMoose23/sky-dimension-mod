@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "stackedworld.mixin.client",
+	"compatibilityLevel": "JAVA_25",
+	"client": ["WorldCreationUiStateMixin", "NetherLightMixin"],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:range_choice",
+	"input": "stackedworld:y",
+	"min_inclusive": -64.0,
+	"max_exclusive": 320.0,
+	"when_in_range": "minecraft:overworld/final_density",
+	"when_out_of_range": {
+		"type": "minecraft:range_choice",
+		"input": "stackedworld:y",
+		"min_inclusive": -192.0,
+		"max_exclusive": -64.0,
+		"when_in_range": "stackedworld:nether_density",
+		"when_out_of_range": "stackedworld:sky_density"
+	}
+}

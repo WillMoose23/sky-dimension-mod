@@ -1,0 +1,13 @@
+{
+	"generator.stackedworld.stacked_dimension": "Stacked Dimension",
+	"stackedworld.customize.title": "Sky Islands",
+	"stackedworld.customize.land_frequency": "Islands above land — how many: %s%%",
+	"stackedworld.customize.land_size": "Islands above land — how big: %s%%",
+	"stackedworld.customize.ocean_frequency": "Islands above water — how many: %s%%",
+	"stackedworld.customize.ocean_size": "Islands above water — how big: %s%%",
+	"stackedworld.customize.land_frequency.tooltip": "Higher puts more islands over forests, plains, and other land. Lower leaves more open sky above that land. Default is %s%%.",
+	"stackedworld.customize.land_size.tooltip": "Higher makes the islands over land wider. Lower makes them smaller. Default is %s%%.",
+	"stackedworld.customize.ocean_frequency.tooltip": "Higher puts more islands over oceans, lakes, and rivers. Lower leaves more open sky above that water. Default is %s%%.",
+	"stackedworld.customize.ocean_size.tooltip": "Higher makes the islands over water wider. Lower makes them smaller. Default is %s%%.",
+	"stackedworld.customize.defaults": "Restore Defaults"
+}
